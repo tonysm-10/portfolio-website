@@ -1,0 +1,12 @@
+.three-d-letter {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    color: orangered; /* set color of the letter */
+    font-size: 500px; /* set font size of the letter */
+    font-weight: bold; /* set font weight of the letter */
+    text-shadow: 2px 2px 0px black, 3px 3px 0px black, 4px 4px 0px black; /* add the 3D effect */
+    transform: rotate(30deg)
+  }
+  
+  
