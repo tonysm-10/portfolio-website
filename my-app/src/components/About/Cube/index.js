@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faHtml5, faCss3, faJsSquare, faGitAlt, faBootstrap } from '@fortawesome/free-brands-svg-icons';
 import './cube.scss';
-import Loader from '../../Loader';
 
 const Cube = () => {
   return (
