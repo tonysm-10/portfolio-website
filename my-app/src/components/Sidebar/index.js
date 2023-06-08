@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
 import portfolioPng from '../../assets/images/portfolio1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faMailForward, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faMailForward, faProjectDiagram, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
@@ -11,13 +11,16 @@ const Sidebar = () => (
             <img className="sub-logo" src={portfolioPng} alt="logotext" />
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/react-portfolio">
+            <NavLink exact='true' activeclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+            <NavLink className="about-link" exact='true' activeclassname="active" to="/about">
                 <FontAwesomeIcon icon={faUser} />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className='contact-link' to="/contact">
+            <NavLink className="about-link" exact='true' activeclassname="active" to="/projects">
+                <FontAwesomeIcon icon={faProjectDiagram} />
+            </NavLink>
+            <NavLink className='contact-link' exact='true' activeclassname="active" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} />
             </NavLink>
         </nav>
