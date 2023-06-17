@@ -51,7 +51,6 @@
         }
     }
     .box{
-    
         h2 {
             color: #8d8d8d;
             margin-top: 20px;
@@ -90,3 +89,32 @@ nobr {
     display: flex;
     line-height: 7rem;
   }
+
+
+
+  .technologies{
+    position: absolute;
+    left: 40vw;
+    bottom: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+        li{
+            margin-left: 20px;
+            padding-left: 10px;
+            border-left: #FF6666 solid 1px;
+            list-style: none;
+            font-size: 14px;
+            color: #8d8d8d;
+        }
+    
+}
+.techno {
+    color: lightgrey;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 550;
+    
+}

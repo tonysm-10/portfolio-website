@@ -17,6 +17,25 @@ const Home = () => {
                     <h2>Frontend Developer/ Fullstack Developer</h2>
                     <Link to='/contact' className='flat-button'>CONTACT ME</Link>
                 </div>
+                <div className="technologies">
+                    <div>
+                        <h2 className='techno'>TECHNOLOGIES</h2>
+                    </div>
+                    <div>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>NodeJs</li>
+                            <li>React</li>
+                            <li>Graphql</li>
+                            <li>MongoDB</li>
+                            <li>MySql</li>
+                            <li>Handlebars</li>
+                            <li>ExpressJs</li>
+                            <li>GIT</li>
+                            <li>...</li>
+                    </div>
+                </div>
             </div>
             <Logo />
         </div>

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faHtml5, faCss3, faJsSquare, faGitAlt, faBootstrap } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faHtml5, faCss3, faJsSquare, faGitAlt, faNode } from '@fortawesome/free-brands-svg-icons';
 import './cube.scss';
 
 const Cube = () => {
@@ -22,7 +22,7 @@ const Cube = () => {
           <FontAwesomeIcon icon={faGitAlt} color='#EC4D28' />
         </div>
         <div className='face6'>
-          <FontAwesomeIcon icon={faBootstrap} color='#712cf9' />
+          <FontAwesomeIcon icon={faNode} color='black' />
         </div>
       </div>
     </div>

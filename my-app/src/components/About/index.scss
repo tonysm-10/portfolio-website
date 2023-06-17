@@ -1,7 +1,7 @@
 
 
 
-.aboutPage, .contactPage{
+.aboutPage, .contactPage {
     position: absolute;
     margin-bottom: 5px;
     top: 90px;
@@ -10,9 +10,21 @@
     z-index: 1;
     will-change: contents;
     transform-style: preserve-3d;
-    // animation: fadeIn 1s forwards;
+    /* animation: fadeIn 1s forwards; */
     animation-delay: 1s;
     animation: fadeIn 3s backwards;
+    height: 80vh; /* Set a fixed height */
+  }
+  
+  @media (max-width: 1067px) {
+    .aboutPage {
+      overflow-y: scroll;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+    
     .section{
         margin: 10px 0;
         padding: 10px 0;
@@ -33,6 +45,25 @@
         font-family: Helvetica, Arial, sans-serif;
         margin-top: 20px;
         margin-right: 30px;
+        .flat-button {
+            color: #FF6666;
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 4px;
+            font-family: sans-serif;
+            text-decoration: none;
+            padding: 10px 18px;
+            border: 1px solid red;
+            margin-top: 25px;
+            float: left;
+            animation: fadeIn 1s 1.8s backwards;
+            white-space: nowrap;
+            
+            &:hover {
+                background-color: red;
+                color: #333;
+            }
+        }
         p{  
             font-family: sans-serif;
             color: #fff;
@@ -59,4 +90,5 @@
             }
         }
     }
-}
+
+

@@ -3,14 +3,18 @@ html{
 }
 
 body {
-  margin: 0;
+  /* margin: 0; */
   font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
-  background-color: #022c43;
+  background: radial-gradient(circle at 3% 25%, rgba(0, 38, 77, 1) 0%, rgba(2, 56, 110, 1) 50%, rgba(0, 73, 141, 1) 100%);
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+
+
 
 

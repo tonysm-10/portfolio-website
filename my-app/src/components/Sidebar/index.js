@@ -26,7 +26,7 @@ const Sidebar = () => (
         </nav>
         <ul>
             <li>
-                <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/'>
+                <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/anthony-ayala-arellano-ba3b88279/'>
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
             </li>
