@@ -11,16 +11,16 @@ const Sidebar = () => (
             <img className="sub-logo" src={portfolioPng} alt="logotext" />
         </Link>
         <nav>
-            <NavLink exact='true' activeclassname="active" to="/">
+            <NavLink exact='true' activeclassname="active" to="/portfolio-website/">
                 <FontAwesomeIcon icon={faHome} />
             </NavLink>
-            <NavLink className="about-link" exact='true' activeclassname="active" to="/about">
+            <NavLink className="about-link" exact='true' activeclassname="active" to="/portfolio-website/about">
                 <FontAwesomeIcon icon={faUser} />
             </NavLink>
-            <NavLink className="about-link" exact='true' activeclassname="active" to="/projects">
+            <NavLink className="about-link" exact='true' activeclassname="active" to="/portfolio-website/projects">
                 <FontAwesomeIcon icon={faProjectDiagram} />
             </NavLink>
-            <NavLink className='contact-link' exact='true' activeclassname="active" to="/contact">
+            <NavLink className='contact-link' exact='true' activeclassname="active" to="/portfolio-website/contact">
                 <FontAwesomeIcon icon={faEnvelope} />
             </NavLink>
         </nav>
