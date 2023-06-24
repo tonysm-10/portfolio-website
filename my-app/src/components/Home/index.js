@@ -15,7 +15,7 @@ const Home = () => {
                 </h1>
                 <div className='box'>
                     <h2>Frontend Developer/ Fullstack Developer</h2>
-                    <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+                    <Link to='portfolio-website/contact' className='flat-button'>CONTACT ME</Link>
                 </div>
                 <div className="technologies">
                     <div>
