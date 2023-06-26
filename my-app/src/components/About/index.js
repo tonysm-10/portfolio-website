@@ -24,7 +24,7 @@ const About = () => {
                 </p>
                 
                 <a href="https://example.com/resume" className="flat-button">View Resume!</a>
-                <Link to='/projects' className='flat-button'>View Projects!</Link>
+                <Link to='/portfolio-website/projects' className='flat-button'>View Projects!</Link>
             </div>
         </div>
         <Cube />
