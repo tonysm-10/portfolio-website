@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.bd07ea10.css",
-    "main.js": "/portfolio-website/static/js/main.50d89838.js",
+    "main.js": "/portfolio-website/static/js/main.522bf2a6.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-website/static/js/787.28cb0dcd.chunk.js",
     "static/media/creatifyApp.png": "/portfolio-website/static/media/creatifyApp.8389a6bf6f96ecf0e7ae.png",
     "static/media/NutritionHealth.png": "/portfolio-website/static/media/NutritionHealth.7fe8c1f79d51c109d887.png",
@@ -10,11 +10,11 @@
     "static/media/letter.png": "/portfolio-website/static/media/letter.ab3a1551ca027b842d3f.png",
     "index.html": "/portfolio-website/index.html",
     "main.bd07ea10.css.map": "/portfolio-website/static/css/main.bd07ea10.css.map",
-    "main.50d89838.js.map": "/portfolio-website/static/js/main.50d89838.js.map",
+    "main.522bf2a6.js.map": "/portfolio-website/static/js/main.522bf2a6.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-website/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd07ea10.css",
-    "static/js/main.50d89838.js"
+    "static/js/main.522bf2a6.js"
   ]
 }
