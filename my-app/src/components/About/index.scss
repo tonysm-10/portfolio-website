@@ -93,8 +93,80 @@
       flex-wrap: wrap;
     }
   }
-  
-    
+  @media only screen and (max-width: 600px) {
+    .contact-form{
+        position: relative;
+        right: 80px;
+        height: 600px;
+        width: 400px;
+    }
+    .d-flex1{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        margin: 0px;
+        padding: 0;
+        width: 270px;
+
+    }
+    .d-flex2{
+        height: 150px;
+        input, textarea{
+            height: 5rem;
+            width: 90px;
+        }
+
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .contact-form{
+        position: relative;
+        right: 50px;
+    }
+    .contactPage{
+        h1{
+            position: relative;
+            left: 90px;
+        }
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .contact-form{
+        position: relative;
+        left: 10px;
+
+    }
+    .contactPage{
+        h1{
+            position: relative;
+            left: 120px;
+        }
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .contact-form{
+        position: relative;
+        left: 100px;
+    }
+    .contactPage{
+        h1{
+            position: relative;
+            left: 200px;
+        }
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .contact-form{
+        position: relative;
+        left: 25vw;
+    }
+    .contactPage{
+        h1{
+            position: relative;
+            left: 34vw;
+        }
+    }
+  }
     .section{
         margin: 10px 0;
         padding: 10px 0;
