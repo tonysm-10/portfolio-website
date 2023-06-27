@@ -22,3 +22,19 @@
   transition: border-width 0.3s ease;
 }
 
+.project-container::-webkit-scrollbar {
+  width: 10px; 
+  box-shadow: 1px 1px 1px black;
+}
+
+.project-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.project-container::-webkit-scrollbar-thumb {
+  background: lightskyblue;
+}
+
+.project-container::-webkit-scrollbar-thumb:hover {
+  background: lightblue;
+}

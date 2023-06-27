@@ -5,6 +5,7 @@ import Modal from './Modal/index';
 import image1 from './assets/NutritionHealth.png';
 import image2 from './assets/fitnessTracker.png';
 import image3 from './assets/creatifyApp.png'
+import image4 from './assets/weather.png'
 
 const Projects = () => {
   const project2 = {
@@ -34,6 +35,14 @@ const Projects = () => {
     description:
       'In the current digital landscape, establishing a robust online presence is crucial for small businesses. However, creating an online store from the ground up can be daunting, especially for those without extensive technical expertise. Moreover, existing eCommerce platforms often prove intricate and require significant time investment to master, discouraging small business owners. To address these challenges, we developed Creatify, a solution tailored explicitly to the needs of small business owners. Our aim was to fill the gap in the market by offering a simplified and user-friendly eCommerce platform. We recognized that these entrepreneurs wear multiple hats and managing an online store should be effortless, rather than an additional burden.',
   };
+  const project4 = {
+    link: 'https://tonysm-10.github.io/weather-dashboard/',
+    image: image4,
+    title: 'Weather Dashboard',
+    github: 'https://github.com/tonysm-10/weather-dashboard',
+    tech: 'HTML, CSS, JavaScript, jQuery',
+    description: 'This is a simple web application that allows users to search for the weather of a city and displays the current weather as well as a five-day forecast. It uses the OpenWeatherMap API to retrieve weather data.'
+  }
 
   const [isOpen, setIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
@@ -61,10 +70,13 @@ const Projects = () => {
           </div>
           <div className="container-2">
             <div className="item-2 item">
-              <ProjectCard project={project1} openModal={openModal} />
+              <ProjectCard project={project2} openModal={openModal} />
             </div>
             <div className="item-3 item">
-              <ProjectCard project={project2} openModal={openModal} />
+              <ProjectCard project={project4} openModal={openModal} />
+            </div>
+            <div className="item-4 item">
+              <ProjectCard project={project1} openModal={openModal} />
             </div>
           </div>
         </div>
