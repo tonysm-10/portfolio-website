@@ -7,18 +7,16 @@ import Projects from './components/Projects'
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
-  // "homepage": "https://tonysm-10.github.io/portfolio-website",
-
 function App() {
   return (
     <>
     <Routes>
-      <Route path="/portfolio-website" element={<Layout />}>
+      <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="/portfolio-website/about" element={<About />} />
-        <Route path="/portfolio-website/projects" element={<Projects />} />
-        <Route path="/portfolio-website/contact" element={<Contact />} />
-        <Route path="/portfolio-website/resume" element={<Resume />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
       </Route>
     </Routes>
     </>
@@ -26,4 +24,5 @@ function App() {
 }
 
 export default App;
+
 

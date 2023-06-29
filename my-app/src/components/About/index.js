@@ -23,8 +23,8 @@ const About = () => {
                     If you share the same passion for innovative web solutions, I invite you to explore my portfolio and connect with me on LinkedIn. Let's collaborate!
                 </p>
                 
-                <a href="/portfolio-website/resume" className="flat-button">View Resume!</a>
-                <Link to='/portfolio-website/projects' className='flat-button'>View Projects!</Link>
+                <a href="/resume" className="flat-button">View Resume!</a>
+                <Link to='/projects' className='flat-button'>View Projects!</Link>
             </div>
         </div>
         <Cube />
