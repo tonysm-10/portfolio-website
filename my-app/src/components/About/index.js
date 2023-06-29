@@ -23,7 +23,7 @@ const About = () => {
                     If you share the same passion for innovative web solutions, I invite you to explore my portfolio and connect with me on LinkedIn. Let's collaborate!
                 </p>
                 
-                <Link to='/resume' className='flat-button'>View Projects</Link>
+                <Link to='/resume' className='flat-button'>View Resume!</Link>
                 <Link to='/projects' className='flat-button'>View Projects!</Link>
             </div>
         </div>
