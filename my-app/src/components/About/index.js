@@ -20,10 +20,10 @@ const About = () => {
                     With a strong belief in the power of collaboration, I enjoy working in dynamic teams where I can contribute my skills and learn from others. I have had the privilege of working on exciting Projects.
                 </p>
                 <p>
-                    If you share the same passion for innovative web solutions, I invite you to explore my portfolio and connect with me on LinkedIn. Let's collaborate and make a positive impact together. <a className='link' href='/contact'>Contact me!</a>
+                    If you share the same passion for innovative web solutions, I invite you to explore my portfolio and connect with me on LinkedIn. Let's collaborate!
                 </p>
                 
-                <a href="https://example.com/resume" className="flat-button">View Resume!</a>
+                <a href="/portfolio-website/resume" className="flat-button">View Resume!</a>
                 <Link to='/portfolio-website/projects' className='flat-button'>View Projects!</Link>
             </div>
         </div>

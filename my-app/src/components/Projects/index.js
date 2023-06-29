@@ -36,7 +36,7 @@ const Projects = () => {
       'In the current digital landscape, establishing a robust online presence is crucial for small businesses. However, creating an online store from the ground up can be daunting, especially for those without extensive technical expertise. Moreover, existing eCommerce platforms often prove intricate and require significant time investment to master, discouraging small business owners. To address these challenges, we developed Creatify, a solution tailored explicitly to the needs of small business owners. Our aim was to fill the gap in the market by offering a simplified and user-friendly eCommerce platform. We recognized that these entrepreneurs wear multiple hats and managing an online store should be effortless, rather than an additional burden.',
   };
   const project4 = {
-    link: 'https://tonysm-10.github.io/weather-dashboard/',
+    link: 'https://main--golden-cobbler-bae7ad.netlify.app/',
     image: image4,
     title: 'Weather Dashboard',
     github: 'https://github.com/tonysm-10/weather-dashboard',

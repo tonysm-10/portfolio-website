@@ -5,6 +5,8 @@ import Home from './components/Home'
 import About from './components/About/index'
 import Projects from './components/Projects'
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
+
   // "homepage": "https://tonysm-10.github.io/portfolio-website",
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
         <Route path="/portfolio-website/about" element={<About />} />
         <Route path="/portfolio-website/projects" element={<Projects />} />
         <Route path="/portfolio-website/contact" element={<Contact />} />
+        <Route path="/portfolio-website/resume" element={<Resume />} />
       </Route>
     </Routes>
     </>
