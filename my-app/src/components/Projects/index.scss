@@ -38,3 +38,18 @@
 .project-container::-webkit-scrollbar-thumb:hover {
   background: lightblue;
 }
+
+@media (max-width: 630px){ 
+body{
+  background: rgba(2, 56, 110, 1);
+}
+.project-container{
+  margin: 0;
+  position: relative;
+  left: -60px;
+}
+.item{
+  padding: 5px;
+  margin: 5px;
+}
+}

@@ -60,7 +60,7 @@ const Projects = () => {
   return (
     <div className="contactPage">
       <div>
-        <h1>My Projects</h1>
+        <h1 className='my-projects'>My Projects</h1>
       </div>
       {isOpen && <Modal project={selectedProject} onClose={closeModal} />}
       {!isOpen && (

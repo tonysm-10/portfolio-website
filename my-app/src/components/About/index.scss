@@ -85,7 +85,14 @@
  
       
   }
-  
+    
+  @media (max-width: 468px) {
+     .aboutPage{
+        position: absolute;
+        top: 90px;
+        left: 60px;
+     }   
+  }
   @media (max-width: 1067px) {
     .aboutPage {
       overflow-y: scroll;

@@ -9,7 +9,7 @@ const Modal = ({ project, onClose }) => {
           <button className="close-button" onClick={onClose}>
             <FontAwesomeIcon icon={faClose} />
           </button>
-          <h2>{project.title}</h2>
+          <h2 className='project-title'>{project.title}</h2>
           <p className='p-projects'>Description: {project.description}</p>
           <p className='p-projects'>Technologies Used: {project.tech}</p>
           <a href={project.link} className="demo-button">Demo</a>

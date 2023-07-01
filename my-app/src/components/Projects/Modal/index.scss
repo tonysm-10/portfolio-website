@@ -1,9 +1,8 @@
 .modal-overlay {
-    position: fixed;
-    top: 25vh;
-    left: 25vw;
-    width: 500px;
-    height: 300px;
+    margin: 10rem 5rem;
+    // margin: 0 auto;
+    min-width: 300px;
+    max-width: 500px;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
@@ -19,18 +18,20 @@
     color: white;
     width: 100%;
     padding: 20px;
-    height: 100%;
+
   }
   
   .close-button {
-    position: relative;
-    left: 430px;
+    margin-left: 95%;
   }
   
     .padding{
       padding-right: 10px;
     }
-  
+  .project-title{
+    font-size: 20px;
+    margin: 0 15rem;
+  }
 
   .demo-button {
     color: #FF6666;
@@ -54,3 +55,36 @@
         color: #333;
     }
 }
+@media (max-width: 768px){ 
+  .my-projects{
+    font-size: 40px;
+  }
+  .modal-overlay {
+    margin: 2rem 0 2rem -5rem;
+    margin-right: 2rem;
+    padding: 0;
+  }
+
+}
+
+
+@media (min-width: 800px){ 
+
+  .modal-overlay {
+   margin: 10rem 10rem;
+  }
+
+}
+
+@media(min-width: 968px){
+  .modal-overlay{
+    margin: 10rem 20rem;
+  }
+}
+@media(min-width: 1208px){
+  .modal-overlay{
+    margin: 10rem 35rem;
+  }
+}
+
+
