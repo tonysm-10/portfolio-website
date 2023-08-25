@@ -12,8 +12,8 @@ const Modal = ({ project, onClose }) => {
           <h2 className='project-title'>{project.title}</h2>
           <p className='p-projects'>Description: {project.description}</p>
           <p className='p-projects'>Technologies Used: {project.tech}</p>
-          <a href={project.link} className="demo-button">Demo</a>
-          <a href={project.github} className="padding demo-button">Github</a>
+          <a rel="noreferrer" target='_blank' href={project.link} className="demo-button">Demo</a>
+          <a rel="noreferrer" target='_blank' href={project.github} className="padding demo-button">Github</a>
         </div>
       </div>
     );

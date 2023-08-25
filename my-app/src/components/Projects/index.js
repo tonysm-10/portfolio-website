@@ -6,6 +6,9 @@ import image1 from './assets/NutritionHealth.png';
 import image2 from './assets/fitnessTracker.png';
 import image3 from './assets/creatifyApp.png'
 import image4 from './assets/weather.png'
+import image5 from './assets/ecommerce.png'
+import image6 from './assets/music.png'
+import image7 from './assets/yelpFinder.png'
 
 const Projects = () => {
   const project2 = {
@@ -43,6 +46,31 @@ const Projects = () => {
     tech: 'HTML, CSS, JavaScript, jQuery',
     description: 'This is a simple web application that allows users to search for the weather of a city and displays the current weather as well as a five-day forecast. It uses the OpenWeatherMap API to retrieve weather data.'
   }
+  const project5 = {
+    link: 'https://nimble-capybara-82d685.netlify.app/',
+    image: image5,
+    title: 'Gym Essentials',
+    github: 'https://github.com/tonysm-10/ecommerce-frontend',
+    tech: 'HTML, CSS, JavaScript, React',
+    description: 'This Ecommerce frontend serves as your ultimate destination for sourcing all your gym essentials. Crafted meticulously using HTML, CSS, JavaScript, and React, this application empowers you to precisely determine the quantity of each item you desire. Seamlessly add items to your cart, and effortlessly manage your selections by removing them when needed!'
+  }
+
+  const project6 = {
+    link: 'https://beautiful-lily-038088.netlify.app/',
+    image: image6,
+    title: 'Playlist Tracker',
+    github: 'https://github.com/tonysm-10/jamming',
+    tech: 'HTML, CSS, JavaScript, React',
+    description: 'The Playlist Tracker App is a web application that allows users to search for songs using the Spotify API, create playlists, and save their favorite tracks to those playlists.'
+  }
+  const project7 = {
+    link: 'https://main--cheery-custard-d309c9.netlify.app/',
+    image: image7,
+    title: 'Yelp Restaurant Finder',
+    github: 'https://github.com/tonysm-10/ravenous',
+    tech: 'HTML, CSS, JavaScript, React, Yelp Api',
+    description: 'The Yelp Restaurant Finder is a web application that enables users to search for restaurants using the Yelp API. Users can input various criteria such as the type of restaurant, search keywords, and city to retrieve a curated list of restaurants that match their preferences!'
+  }
 
   const [isOpen, setIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
@@ -65,6 +93,15 @@ const Projects = () => {
       {isOpen && <Modal project={selectedProject} onClose={closeModal} />}
       {!isOpen && (
         <div className="project-container">
+          <div className='item-5 item'>
+            <ProjectCard project={project5} openModal={openModal} />
+          </div>
+          <div className='item-6 item'>
+            <ProjectCard project={project6} openModal={openModal} />
+          </div>
+          <div className='item-7 item'>
+            <ProjectCard project={project7} openModal={openModal} />
+          </div>
           <div className="item-1 item">
             <ProjectCard project={project3} openModal={openModal} />
           </div>
